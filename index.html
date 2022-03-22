@@ -7,25 +7,31 @@
     <link rel="shortcut icon" href="https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/Proyectos%20Allans%2F1%20Icono%20.png?alt=media&token=46dbbd10-c75c-4d09-97b7-6da928221645" type="image/x-icon">
     <title>Proyectos Allans</title>
 
+    
+
     <!-- FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@300;700&display=swap" rel="stylesheet">
     <!-- CSS LOCAL -->
     <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
     <!-- HEADER -->
-    <header class="header">
         <nav class="nav-bar">
             <ul>
-                <li><a href="#sobre_mi">Sobre Mí</a></li>
+                <li><a href="#sobre_mi">Sobre mi</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                <li><a href="#videos">Videos</a></li>
                 <li><a href="#estudios">Estudios</a></li>
                 <li><a href="#contactos">Contactos</a></li>
             </ul>
+            <div class="hide">
+                <i class="fa fa-bars" aria-hidden="true"></i> Menú
+            </div>
         </nav>
-    </header>
 
     <!-- SECTION 1 -->
     <section id="sobre_mi">
@@ -58,9 +64,21 @@
             </div>
         </div>
     </section>
+
     <!-- SECTION 3 -->
-    <section id="estudios">
+    <section id="videos">
         <div class="section-3">
+            <h2>Videos</h2>
+            <div class="videos">
+                <iframe src="https://www.youtube.com/embed/FmCo1DlM8G0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <iframe  src="https://www.youtube.com/embed/XdGfKH9x-zk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+            </div>
+
+    </section>
+    <!-- SECTION 4 -->
+    <section id="estudios">
+        <div class="section-4">
             <h2>Estudios</h2>
             <ul>
                 <li> Bachiller en Ciencias y Letras con Orientación en Eduación. Instituto Normal Mixto Juan de León. (2,017) </li>
@@ -82,9 +100,12 @@
             </ul>
         </div>
     </section>
-    <!-- SECTION 4 -->
+
+    
+
+    <!-- SECTION 5 -->
     <section id="contactos">
-        <div class="section-4">
+        <div class="section-5">
             <hr>    
             <div class="botones_redes">
                 <button class="boton" onclick="b1"></button>
@@ -94,6 +115,7 @@
             </div>
         </div>
     </section>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script src="main.js"></script>
 </body>
 </html>
