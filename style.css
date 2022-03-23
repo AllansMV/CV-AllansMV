@@ -6,7 +6,7 @@
 
 :root {
     --color1:#0E185F;
-    --color2:#111e37;
+    --color2:#040f24;
     --color3:#5b98df;
     --color4:#e3d2ed;
     --color5:#f8efed;
@@ -118,6 +118,18 @@ section {
     font-size: 2.5rem;
 }
 
+
+
+@keyframes paso {
+    from {width: 0;}
+}
+
+@keyframes blink {
+    50% {
+        border-color: transparent;
+    }
+
+}
 .section-1 hr {
     width: 20%;
     display: block;
@@ -154,7 +166,7 @@ section {
 .contenedor-grid img {
     width: 100%;
     border-radius: 1rem;
-    box-shadow: 1px 1px 5px rgb(161, 161, 161);
+    box-shadow: 1px 1px 5px rgb(219, 219, 219);
 }
 
 /* SECTION 3 */
@@ -231,6 +243,7 @@ section {
 #contactos {
     padding: 0;
     background-color: var(--color2);
+    
 }
 
 .section-3 h2 {
@@ -241,7 +254,59 @@ section {
     color: var(--color1);
 }
 
+/* CONTACTOS */
 
+.section-5 hr {
+    width: 20%;
+    display: block;
+    margin: 0 auto;
+    border: 1px solid var(--color5);
+    background-color: var(--color5);
+    border-radius: 1rem;
+}
+
+.section-5 h2 {
+    margin: 1rem 0; 
+    text-align: center;
+    font-size: 2rem;
+    font-family: var(--contenido);
+    color: white;
+}
+.botones_redes {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.botones_redes .boton {
+    inline-size: 30px;
+    block-size: 30px;
+    /* background-color: gold; */
+    border:none;
+    cursor: pointer;
+    margin: 0 15px;
+    background-color: transparent;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 2rem;
+}
+
+.boton:active {
+    transform: scale(.9);
+}
+#b1 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%203.png?alt=media&token=1e3bac4e-f853-40b6-9b3c-65a984da0587");
+}
+
+#b3 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%201.png?alt=media&token=736517d7-e037-4822-a540-46755e4000e9");
+}
+
+#b2 {
+    background-image: url("https://firebasestorage.googleapis.com/v0/b/avi-webpage.appspot.com/o/iconos%2FPanader%C3%ADa%2Fred%208%20correo.png?alt=media&token=f740c1f0-f80d-4342-9113-6224dd99a51a");
+    background-size: contain;
+}
 @media (max-width: 768px) {
 
     .nav-bar{
