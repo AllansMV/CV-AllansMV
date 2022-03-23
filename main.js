@@ -7,7 +7,7 @@ function ver_cv(){
 }
 
 function b1(){
-    location.href="https://wa.me/50256104269?text=%C2%A1Hola!%20Espero%20que%20te%20encuentres%20muy%20bien.%20%C2%BFQu%C3%A9%20te%20trae%20por%20estos%20rumbos%3F"
+    location.href="https://wa.me/50256104269?text=%C2%A1Hola!%20Espero%20que%20te%20encuentres%20muy%20bien.%20Dime%2C%20%C2%BFEn%20qu%C3%A9%20te%20puedo%20ayudar%3F"
 }
 
 function b2(){
